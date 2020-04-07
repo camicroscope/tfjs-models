@@ -13,6 +13,10 @@ Image Format : RGB
 
 Pre-Processing : 128 X 128 patches are cropped from the complete images without any overlap. As there is no seperate test                            dataset 20% of the extracted patches are kept aside for testing and the rest are used for training. Pixel values are normalized before training.
 
+Pixel scale: 0.42 µm x 0.42 µm
+
+Magnification : 200x
+
 
 Sample Images :
 
