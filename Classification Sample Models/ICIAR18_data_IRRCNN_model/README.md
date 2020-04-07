@@ -5,9 +5,13 @@
 
 Dataset used is available [here](https://iciar2018-challenge.grand-challenge.org/Dataset/)
 
-The image dataset is composed of high-resolution (2040 × 1536 pixels), uncompressed, and annotated H&E stain images from the ICIAR 2018 BACH Challenge.
+The image dataset is composed of high-resolution (2048 x 1536 pixels), uncompressed, and annotated H&E stain images from the ICIAR 2018 BACH Challenge.
 
 Patch Size used : 128 X 128
+
+Image Format : RGB
+
+Pre-Processing : 128 X 128 patches are cropped from the complete images without any overlap. As there is no seperate test                            dataset 20% of the extracted patches are kept aside for testing and the rest are used for training. Pixel values are normalized before training.
 
 
 Sample Images :
