@@ -7,6 +7,8 @@ Dataset used is available [here](https://iciar2018-challenge.grand-challenge.org
 
 The image dataset is composed of high-resolution (2048 x 1536 pixels), uncompressed, and annotated H&E stain images from the ICIAR 2018 BACH Challenge.
 
+Each image is labeled with one of four classes: i) normal tissue, ii) benign lesion, iii) in situ carcinoma and iv) invasive carcinoma.
+
 Patch Size used : 128 X 128
 
 Image Format : RGB
