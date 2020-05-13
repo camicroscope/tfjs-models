@@ -6,7 +6,7 @@
 
 ## Classification Models
 The following sample classification models can be used by caMicroscope's predict application as-is.
-* [ICAR18](Classification%20Sample%20Models/ICIAR18_data_IRRCNN_model) -- [model](Classification%20Sample%20Models/ICIAR18_data_IRRCNN_model/tfjs_model/model.json) and [weights](Classification%20Sample%20Models/ICIAR18_data_IRRCNN_model/tfjs_model/group1-shard1of1.bin)
+* [ICIAR18](Classification%20Sample%20Models/ICIAR18_data_IRRCNN_model) -- [model](Classification%20Sample%20Models/ICIAR18_data_IRRCNN_model/tfjs_model/model.json) and [weights](Classification%20Sample%20Models/ICIAR18_data_IRRCNN_model/tfjs_model/group1-shard1of1.bin)
 * [Bioimaging15](Classification%20Sample%20Models/classification-of-HnE-stained-histological-breast-cancer-images) -- [model](Classification%20Sample%20Models/classification-of-HnE-stained-histological-breast-cancer-images/tfjs_model/model.json), [weights part 1](Classification%20Sample%20Models/classification-of-HnE-stained-histological-breast-cancer-images/tfjs_model/group1-shard1of2), and [weights part 2](Classification%20Sample%20Models/classification-of-HnE-stained-histological-breast-cancer-images/tfjs_model/group1-shard2of2)
 * [Lymphoma](Classification%20Sample%20Models/lymphoma-cancer-classification) -- [model](Classification%20Sample%20Models/lymphoma-cancer-classification/model/tfjs_model/model.json), and [weights](Classification%20Sample%20Models/lymphoma-cancer-classification/model/tfjs_model/group1-shard1of1)
 
