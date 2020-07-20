@@ -6,6 +6,8 @@ A total of 87 pathologists diagnosed a randomly assigned subset of 60 slides int
 ## Model
 [Y-net](https://arxiv.org/pdf/1806.01313.pdf): 
 
+![model architecture](ynet.png)
+
 
 Input image size: 256 x 256 x 3
 
