@@ -1,13 +1,22 @@
 # Mitosis Segmentation
 ## Dataset 
-The dataset used is available in [this](http://www.andrewjanowczyk.com/use-case-5-mitosis-detection/) post.
+The dataset used is available in [this](https://www.bcsc-research.org/data/variables/) post.
+A total of 87 pathologists diagnosed a randomly assigned subset of 60 slides into four diagnostic categories (benign, atypia, ductal carcinomain situ, and invasive cancer),producing an average of 22 diagnostic labels per case.  The average size of these ROIs is10,000×12,000. We use these 200 ROIs for our data set.
 
-The dataset consist of 311 images of size 2,000 x 2,000 @*40x* selected from 12 breast cancer (BCa) patients. In total there are 550 mitosic centers expertly identified using a focal microscope.
-
-This sample model is trained on br_masks for demonstration purpose to try to understand how to test models in caMicroscope.
-## Preprocessing
-Pixel values are normalized between 0-1.
 ## Model
-U-net: 256 -> 128 -> 64 -> 32 -> 16 -> 32 -> 64 -> 128 -> 256.
+[Y-net](https://arxiv.org/pdf/1806.01313.pdf): 
+
 
 Input image size: 256 x 256 x 3
+
+
+Citation 
+
+``` @inproceedings{mehta2018ynet,
+  title={{Y-Net: Joint Segmentation and Classification for Diagnosis of Breast Biopsy Images}},
+  author={Sachin Mehta and Ezgi Mercan and Jamen Bartlett and Donald Weaver and Joann  Elmore and Linda Shapiro},
+  booktitle={International Conference on Medical image computing and computer-assisted intervention},
+  year={2018},
+  organization={Springer}
+}
+```
