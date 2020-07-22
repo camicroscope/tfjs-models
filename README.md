@@ -12,7 +12,9 @@ The following sample classification models can be used by caMicroscope's predict
 
 ## Segmentation Models
 The following segmentation models can be used by caMicroscope's segmentation algorithm, as an alternative to traditional CV methods. Segmentation models take in image data and return a mask of the same size. When using the model with caMicroscope, the whether the model operates on black and white or RGB images should be specified.
-* [Mitosis](egmentation%20Sample%20Models/mitosis-segmentation) -- [model](Segmentation%20Sample%20Models/mitosis-segmentation/tfjs_model/model.json), [weights part 1](Segmentation%20Sample%20Models/mitosis-segmentation/tfjs_model/group1-shard1of2.bin), and [weights part 2](Segmentation%20Sample%20Models/mitosis-segmentation/tfjs_model/group1-shard2of2.bin). 
+* [Mitosis](Segmentation%20Sample%20Models/mitosis-segmentation) -- [model](Segmentation%20Sample%20Models/mitosis-segmentation/tfjs_model/model.json), [weights part 1](Segmentation%20Sample%20Models/mitosis-segmentation/tfjs_model/group1-shard1of2.bin), and [weights part 2](Segmentation%20Sample%20Models/mitosis-segmentation/tfjs_model/group1-shard2of2.bin). 
+
+* [YNet](Segmentation%20Sample%20Models/YNet) -- [model](Segmentation%20Sample%20Models/YNet/tfjs_model/model.json), [weights part 1](Segmentation%20Sample%20Models/YNet/tfjs_model/group1-shard1of2.bin), and [weights part 2](Segmentation%20Sample%20Models/YNet/tfjs_model/group1-shard2of2.bin). 
 
 ## Common Issues:
 - ***Provided weight data has no target variable***: This might be a common issue for the model to fail to load. To avoid this, make sure that the keras model is loaded exactly once. To make sure, reset the runtime and load the model before carrying to conversion. This case also goes when your converting using the bash command. The Keras model which you saved must be loaded just once. To make sure, save the model, reset the runtime, load the model and save it again. Multiple loads seem to mess up the layer names. You can track this issue further [here](https://github.com/tensorflow/tfjs/issues/755).
